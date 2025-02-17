@@ -695,7 +695,7 @@ class ApiController extends Controller
             foreach ($Section5 as $key => $value) {
 
                 if ($value->type == 'quote') {
-                    $Section5Details['quote'] = $value->message;
+                    //$Section5Details['quote'] = $value->message;
                 }
                 if ($value->type == 'video_url') {
                     $Section5Details['video_url'] = $value->message;
